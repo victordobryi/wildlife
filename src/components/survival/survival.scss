@@ -1,45 +1,44 @@
-@import '../app/nullstyle.scss';
+@import "../app/nullstyle.scss";
 
 %flex {
-    display: flex;
-  }
-  
-  %openSans {
-    font-family: "open_sansregular";
-  }
-  
-  %roboto {
-    font-family: "robotoregular";
-  }
+  display: flex;
+}
 
+%openSans {
+  font-family: "open_sansregular";
+}
 
-.survival{
-    margin-top: 123px;
-    &__title {
-        @extend %openSans;
-        font-size: 48px;
-        letter-spacing: 2px;
-        color: #CD6326;
+%roboto {
+  font-family: "robotoregular";
+}
+
+.survival {
+  margin-top: 123px;
+  &__title {
+    @extend %openSans;
+    font-size: 48px;
+    letter-spacing: 2px;
+    color: #cd6326;
+  }
+  &__paragraph {
+    @extend %openSans;
+    font-size: 18px;
+    color: #f7f7f7;
+    width: 274px;
+    line-height: 27px;
+    margin-top: 64px;
+  }
+  &__button {
+    padding: 16px 44px 17px 42px;
+    background-color: #cd6326;
+    border-radius: 5px;
+    color: #f7f7f7;
+    margin-top: 49px;
+    font-size: 23px;
+    line-height: 27px;
+    &:hover {
+      cursor: pointer;
+      color: black;
     }
-    &__paragraph{
-        @extend %openSans;
-        font-size: 18px;
-        color: #F7F7F7;
-        width: 274px;
-        line-height: 27px;
-        margin-top: 64px;
-    }
-    &__button{
-      padding: 16px 44px 17px 42px;
-      background-color: #CD6326;
-      border-radius: 5px;
-      color: #F7F7F7;
-      margin-top: 49px;
-      font-size: 23px;
-      line-height: 27px;
-      &:hover {
-        cursor: pointer;
-        color: black;
-      }
-    }
+  }
 }

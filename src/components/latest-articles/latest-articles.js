@@ -13,13 +13,8 @@ const LatestArticles = () => {
         Get notified about new amazing articles
       </h3>
       <form className="form__block">
-        <input
-          type="text"
-          className="form__block__input"
-          placeholder="Email"
-        />
-        <input type="submit" className="form__block__button" value="Send" 
-        />
+        <input type="text" className="form__block__input" placeholder="Email" />
+        <input type="submit" className="form__block__button" value="Send" />
       </form>
     </div>
   );

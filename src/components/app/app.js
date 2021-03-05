@@ -6,9 +6,8 @@ import Footer from "../footer";
 
 import "./app.scss";
 import "../app/wrapper.scss";
-import '../../fonts/open-sans/stylesheet.css'
-import '../../fonts/roboto/stylesheet.css'
-
+import "../../fonts/open-sans/stylesheet.css";
+import "../../fonts/roboto/stylesheet.css";
 
 const App = () => {
   return (

@@ -58,7 +58,6 @@ function SampleNextArrow(props) {
       style={{
         left: "1081px",
         backgroundImage: `url(${right})`,
-      
       }}
       onClick={onClick}
     />

@@ -1,28 +1,25 @@
-@import './nullstyle.scss';
+@import "./nullstyle.scss";
 
-
-
-.survival-block{
-    background-image: url('../../img/main.png');
-    height: 780px;
-    background-repeat: no-repeat;
-    // background-size: cover;
-    background-position: center;
-    background-color: #02160b
+.survival-block {
+  background-image: url("../../img/main.png");
+  height: 780px;
+  background-repeat: no-repeat;
+  // background-size: cover;
+  background-position: center;
+  background-color: #02160b;
 }
 
-.latest-articles-block{
-    background-color: #CCCCCC;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 239px;
+.latest-articles-block {
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 239px;
 }
 
-.footer{
-    background-image: url('../../img/footer.jpg');
-    height: 359px;
-    background-position: center;
-    background-color: #181617
+.footer {
+  background-image: url("../../img/footer.jpg");
+  height: 359px;
+  background-position: center;
+  background-color: #181617;
 }
-

@@ -12,7 +12,6 @@
   font-family: "robotoregular";
 }
 
-
 .slider {
   width: 90%;
   margin-top: 126px;
@@ -20,14 +19,14 @@
   &__title {
     @extend %openSans;
     font-size: 22px;
-    color: #F7F7F7;
+    color: #f7f7f7;
     margin-top: 253px;
     margin-left: -60px;
   }
   &__subtitle {
     @extend %openSans;
     font-size: 17px;
-    color: #F7F7F7;
+    color: #f7f7f7;
     margin-top: 24px;
     margin-left: -59px;
   }
@@ -42,7 +41,7 @@
   cursor: pointer;
   position: absolute;
   top: 148px;
-  &:hover{
-width: 30px;
+  &:hover {
+    width: 30px;
   }
 }
