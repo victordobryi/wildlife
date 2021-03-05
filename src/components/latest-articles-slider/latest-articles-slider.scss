@@ -1,0 +1,48 @@
+@import "../app/nullstyle.scss";
+
+%flex {
+  display: flex;
+}
+
+%openSans {
+  font-family: "open_sansregular";
+}
+
+%roboto {
+  font-family: "robotoregular";
+}
+
+
+.slider {
+  width: 90%;
+  margin-top: 126px;
+  margin-left: 90px;
+  &__title {
+    @extend %openSans;
+    font-size: 22px;
+    color: #F7F7F7;
+    margin-top: 253px;
+    margin-left: -60px;
+  }
+  &__subtitle {
+    @extend %openSans;
+    font-size: 17px;
+    color: #F7F7F7;
+    margin-top: 24px;
+    margin-left: -59px;
+  }
+}
+
+.slick__arrows {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 26px;
+  cursor: pointer;
+  position: absolute;
+  top: 148px;
+  &:hover{
+width: 30px;
+  }
+}

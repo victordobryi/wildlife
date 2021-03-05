@@ -1,0 +1,72 @@
+@import "../app/nullstyle.scss";
+%flex {
+  display: flex;
+}
+
+%openSans {
+  font-family: "open_sansregular";
+}
+
+%roboto {
+  font-family: "robotoregular";
+}
+
+.header {
+  @extend %flex;
+  // margin-top: 20px;
+  &__logo {
+    @extend %flex;
+    margin-top: 15px;
+    &:hover {
+      cursor: pointer;
+    }
+    &__img {
+      width: 70px;
+      height: 70px;
+      margin-top: 5px;
+      &:hover {
+        color: #CD6326;
+        fill: #CD6326;
+        stroke: #CD6326;
+      }
+    }
+    &__title {
+      color: #fff;
+      font-size: 32px;
+      margin-top: 18px;
+      margin-left: 15px;
+      @extend %roboto;
+      &:hover{
+        color: #CD6326;
+      }
+    }
+  }
+  &__menu {
+    @extend %flex;
+    justify-content: flex-end;
+    margin-left: 434px;
+    margin-top: 39px;
+    &__item {
+      margin-left: 61px;
+      &__a {
+        color: #fff;
+        @extend %openSans;
+        font-size: 23px;
+        margin-left: 3px;
+        &:hover {
+          cursor: pointer;
+          color: #CD6326;
+        }
+      }
+    }
+  }
+}
+
+.list-button{
+  border: 2px solid #CD6326;
+  border-radius: 5px;
+  margin-left: 9px;
+  padding: 8px 22px 8px 22px;
+  background: transparent;
+  margin-top: -14px;
+}

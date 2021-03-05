@@ -1,0 +1,73 @@
+@import "../app/nullstyle.scss";
+%flex {
+  display: flex;
+}
+
+%openSans {
+  font-family: "open_sansregular";
+}
+
+%roboto {
+  font-family: "robotoregular";
+}
+
+.footer-block{
+    display: flex;
+    &-logo{
+        margin-top: 145px;
+    }
+}
+
+
+.footer-block__list {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 53px;
+        &-item {
+            color: white;
+            font-size: 23px;
+            margin-left: 85px;
+            line-height: 60px;
+            letter-spacing: 1px;
+            &:hover{
+                cursor: pointer;
+                color: #CD6326;
+            }
+            &-icon{
+                display: flex;
+                margin-left: 94px;
+                margin-top: 10px;
+            }
+        }
+}
+
+.icon {
+    margin-left: 27px;
+    background-position: center;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    &:hover{
+        cursor: pointer;
+        border: 2px solid white;
+        border-radius: 50%;
+        border-color: orange;
+    }
+}
+
+.telegram {
+    background-image: url(../../img/teleg.svg);
+}
+
+.facebook {
+background-image: url(../../img/facebook.svg);
+}
+
+.instagram {
+    background-image: url(../../img/inst.svg);
+}
+
+.pinterest {
+    background-image: url(../../img/pinterest.svg);
+
+}
