@@ -51,8 +51,10 @@
     border-radius: 4px;
     &:hover {
       cursor: pointer;
-      opacity: 0.6;
-      color: black;
+      background-color: #E39128;
+    }
+    &:active {
+      background-color: #8F5613;
     }
   }
 }

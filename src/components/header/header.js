@@ -37,7 +37,7 @@ const Header = () => {
           </a>
         </li>
         <li className="header__menu__item">
-          <button className="header__menu__item__a list-button">Sign in</button>
+          <button className="list-button">Sign in</button>
         </li>
       </ul>
     </div>

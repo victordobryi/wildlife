@@ -38,7 +38,10 @@
     line-height: 27px;
     &:hover {
       cursor: pointer;
-      color: black;
+background-color: #E39128;
+    }
+    &:active {
+      background-color: #8F5613;
     }
   }
 }

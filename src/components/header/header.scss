@@ -58,16 +58,32 @@
           cursor: pointer;
           color: #cd6326;
         }
+        &:active {
+          background-color: #8F5613;
+          border: 2px solid #8F5613;
+        }
       }
     }
   }
 }
 
 .list-button {
+  color: #fff;
+  @extend %openSans;
+  font-size: 23px;
+  margin-left: 3px;
   border: 2px solid #cd6326;
   border-radius: 5px;
   margin-left: 9px;
   padding: 8px 22px 8px 22px;
   background: transparent;
   margin-top: -14px;
+  &:hover {
+    cursor: pointer;
+    background-color: #cd6326;
+  }
+  &:active {
+    background-color: #8F5613;
+    border: 2px solid #8F5613;
+  }
 }
